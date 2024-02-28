@@ -1,5 +1,16 @@
 # reproduction
 
+```
+$ bun --version
+1.0.29
+
+$ bun
+Bun is a fast JavaScript runtime, package manager, bundler, and test runner. (1.0.29-canary.28 (331d079d))
+
+$ node --version
+v21.6.0
+```
+
 To install dependencies:
 
 ```bash
