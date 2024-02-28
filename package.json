@@ -1,0 +1,15 @@
+{
+  "name": "reproduction",
+  "module": "index.ts",
+  "scripts": {
+    "configure": "node-gyp configure",
+    "install": "node-gyp rebuild",
+    "build": "node-gyp build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
